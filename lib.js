@@ -46,11 +46,11 @@ let leadMsg=document.getElementById('leadMsg')
  
 
 openWhat=()=>{
-    return location.href="https://api.whatsapp.com/send/?phone=5511918419084&text=Ol%C3%A1+Harmony+Digital"
+    return location.href="https://api.whatsapp.com/send/?phone=5512981021517&text=Ol%C3%A1+Thais+Mariano+vim+do+portfolio2024"
 }
 sendMsg=()=>{ 
     
-    return location.href="https://api.whatsapp.com/send/?phone=5511918419084&text=Ol%C3%A1+Harmony+Digital+"+leadMsg.value
+    return location.href="https://api.whatsapp.com/send/?phone=5512981021517&text=Ol%C3%A1+Thais+Mariano+"+leadMsg.value
 }
 
 Array.from(whatBtn).map((el)=>{ 
