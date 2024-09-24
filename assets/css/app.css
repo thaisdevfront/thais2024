@@ -18,10 +18,17 @@ body{
   .modal.show {
   display: block;
   }
-  
+
 body.dark {
     background: rgb(19, 19, 19);
     color: white;
+}
+.navbar-toggler-icon{
+ background-image: url('../img/menu-bl.svg') !important;
+}
+body.dark .navbar-toggler-icon{
+background-image: url('../img/menu-wh.svg') !important;
+
 }
 body.dark .target.dark{
     display: none;
@@ -45,10 +52,22 @@ body.dark h3,body.dark p {
 body.dark .text-body-emphasis,body.dark .nav-link,body.dark .navbar-nav .nav-link.active, body.dark .navbar-nav .nav-link.show {
     color:  white !important;
 }
- 
+@media(max-width:800px){
+body.dark .navbar-collapse{
+ background-color:#1c1c1c;   
+}
+}
+
+body.dark .controls button svg{
+    color: white;
+}
+ .controls button{
+    background-color: transparent;
+    border: 0;
+ }
 a.navbar-brand.app {
     display: block; 
-    background-image: url('../../Thais_logo.png');
+    background-image: url('../../harmony_logo.png');
     width: 120px;
     height: 20px;
     background-size: contain;
@@ -57,7 +76,7 @@ a.navbar-brand.app {
 }
 body.dark a.navbar-brand {
    
-    background-image: url('../../Thais_logo_white.png');
+    background-image: url('../../harmony_logo_white.png');
     
 }
 .bg-transparent{
