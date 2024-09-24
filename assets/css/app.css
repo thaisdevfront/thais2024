@@ -67,7 +67,7 @@ body.dark .controls button svg{
  }
 a.navbar-brand.app {
     display: block; 
-    background-image: url('../../harmony_logo.png');
+    background-image: url('../../logo.png');
     width: 120px;
     height: 20px;
     background-size: contain;
@@ -76,7 +76,7 @@ a.navbar-brand.app {
 }
 body.dark a.navbar-brand {
    
-    background-image: url('../../harmony_logo_white.png');
+    background-image: url('../../logo_white.png');
     
 }
 .bg-transparent{
