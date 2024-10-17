@@ -11,10 +11,10 @@ body{
   background: rebeccapurple;
     border: rebeccapurple;
   }
-  .swiper-slide {
+  /* .swiper-slide {
   max-height: 130px;
   overflow: hidden;
-  }
+  } */
   .modal.show {
   display: block;
   }
